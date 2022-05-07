@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('#commands').DataTable({
+        "order": [[0, 'desc']],
         "language": {
             "lengthMenu": "Mostrar _MENU_ comandos",
             "zeroRecords": "No se encontraron comandos con los datos solicitados",
